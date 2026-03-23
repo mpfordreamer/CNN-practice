@@ -1,4 +1,3 @@
-```markdown
 # 🐾 Big Cats Classifier with CNN
 
 Proyek ini merupakan implementasi model Convolutional Neural Network (CNN) untuk klasifikasi gambar tiga jenis kucing besar: **Cheetah**, **Lion**, dan **Tiger**. Proyek mencakup proses pelatihan model, evaluasi performa, serta konversi model ke berbagai format untuk keperluan deployment.
@@ -105,4 +104,3 @@ tensorboard --logdir=logs/
 - Model terbaik (`val_loss`) dipilih karena menunjukkan **kesalahan prediksi paling rendah** dan **generalisasi paling baik** terhadap data uji.
 - Evaluasi menunjukkan performa **stabil dan akurat** untuk semua kelas, sehingga siap digunakan dalam berbagai skenario klasifikasi gambar.
 
-```
