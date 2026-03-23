@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Allow directories to find matches inside them
+!*/
+
+# Whitelist specific files other than dataset
+!.gitignore
+!README.md
+!*.ipynb
+
+# Whitelist dataset folder and contents
+!dataset/
+!dataset/**
+!datasets/
+!datasets/**
